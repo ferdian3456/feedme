@@ -13,6 +13,17 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+<<<<<<< HEAD
 Route::get('/homepage', function(){
     return view('homepage');
 });
+=======
+Route::get('/', function () {
+    return view('welcome');
+});
+
+Route::get('/homepage', function () {
+    return view('homepage');
+});
+
+>>>>>>> f1bdd17c6a280163bfad39a9f2e0b2ca92b912d2
